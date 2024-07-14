@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home" class="container">
+        <h1>Quiz Game</h1>
+        <button id="play-btn" class="btn">Play</button>
+        <button id="highscore-btn" class="btn">High Score</button>
+        <div id="highscore-display" class="hidden">
+            High Score: <span id="highscore">0</span>
+        </div>
+    </div>
+
+    <div id="quiz" class="container hidden">
+        <div id="question-header">
+            <div id="question-count">Question 1/10</div>
+            <div id="score">Score: 0</div>
+        </div>
+        <div id="question">Question text here</div>
+        <div id="options">
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+        </div>
+        <button id="go-home-btn" class="btn">GO HOME</button>
+    </div>
+
+    <div id="gameover" class="container hidden">
+        <div>GAME OVER! TRY AGAIN!</div>
+        <button id="restart-btn" class="btn">Restart</button>
+        <button id="go-home-btn" class="btn">GO HOME</button>
+    </div>
+
+    <div id="end" class="container hidden">
+        <div>Your Score: <span id="final-score"></span></div>
+        <input type="text" id="username" placeholder="Enter your name" class="input">
+        <button id="play-again-btn" class="btn">Play Again</button>
+        <button id="go-home-btn" class="btn">GO HOME</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

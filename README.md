@@ -8,4 +8,4 @@
    <li>Optimized for Vercel</li> </br>
 </ul>
 # License
-Licensed under the [MIT license](https://github.com/princeessjay/Modern_Blog_App/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/princeessjay/Quiz-App.git/LICENSE.md).

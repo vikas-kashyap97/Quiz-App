@@ -3,7 +3,7 @@ https://quiz-app-gules-theta.vercel.app/
 # Features
 <ul>
    <li>This is the simple Quiz Application.</li> </br>
-   <li>Built using HTML, Css and Javascript</li> </br>
+   <li>Built using HTML, CSS and Javascript</li> </br>
    <li>Responsive for different devices</li> </br>
    <li>Optimized for Vercel</li> </br>
 </ul>
